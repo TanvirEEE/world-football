@@ -1,0 +1,164 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* -------------Banner------------- */
+.banner {
+    display: flex;
+    width: 1140px;
+    border-radius: 20px;
+    background-color: rgba(22, 22, 22, 1);
+    margin: 30px 0;
+}
+
+.banner-content {
+    width: 50%;
+    padding: 50px;
+}
+
+.banner-content h1 {
+    color: white;
+    font-size: 60px;
+    padding-right: 50px;
+}
+
+.banner-content p {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: rgba(221, 0, 0, 1);
+    padding: 15px 70px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+span {
+    text-align: center;
+    padding-left: 10px;
+}
+
+.banner-pic {
+    width: 50%;
+}
+
+.banner-pic img {
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.all-button {
+    width: 245px;
+    height: 210px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(22, 22, 22, 1);
+}
+
+.button-white {
+    background-color: aliceblue;
+    color: rgba(22, 22, 22, 1);
+    font-size: 20px;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 200px;
+    height: 50px;
+    font-weight: 700px;
+}
+
+.button-white:hover {
+    cursor: pointer;
+    background: transparent;
+    transition: 0.3s;
+    color: aliceblue;
+}
+
+.button-red {
+    background-color: rgba(221, 0, 0, 1);
+    color: white;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 5px;
+    margin: 15px;
+    width: 200px;
+    height: 50px;
+    font-weight: 700px;
+}
+
+.button-red:hover {
+    cursor: pointer;
+    background: transparent;
+    transition: 0.3s;
+    color: rgba(221, 0, 0, 1);
+}
+
+/* ------------ Section ------------*/
+section {
+    display: flex;
+    margin: 120px 0px;
+}
+
+.transfer-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.transfer-blog {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#tnfr {
+    margin-top: 15px;
+    height: 30px;
+    width: 80px;
+}
+
+.poster img {
+    width: 100%;
+}
+
+.poster-info {
+    margin: 0px 20px;
+
+}
+
+.poster-info h6 {
+    font-size: 16px;
+}
+
+.poster-icons {
+    display: flex;
+    margin: 20px;
+
+}
+
+.poster-icons span {
+    margin-right: 25px;
+}
+
+/*---------------- Footer section ------------------- */
+.goal {
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: rgba(22, 22, 22, 1);
+}
