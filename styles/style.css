@@ -241,3 +241,14 @@ hr {
     }
 
 }
+
+/* up coming Match  */
+.poster {
+    display: flex;
+    justify-content: space-between;
+}
+
+.schedule {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
