@@ -209,4 +209,20 @@ hr {
     .banner {
         flex-direction: column;
     }
+
+    section {
+        flex-direction: column;
+    }
+
+    .all-button {
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .transfer-items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
