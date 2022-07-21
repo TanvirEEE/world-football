@@ -60,50 +60,38 @@ span {
     margin-top: 20px;
 }
 
-.all-button {
-    width: 245px;
-    height: 220px;
-    text-align: center;
-    border-radius: 5px;
+
+.link-up {
+    width: 210px;
+    height: 240px;
     background-color: rgba(22, 22, 22, 1);
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 12px;
+    padding-left: 40px;
 }
 
-.button-white {
-    background-color: aliceblue;
-    color: rgba(22, 22, 22, 1);
-    font-size: 20px;
-    border: 0px;
-    border-radius: 5px;
-    margin-top: 15px;
-    width: 200px;
-    height: 50px;
-    font-weight: 700px;
+.link-up a {
+    text-decoration: none;
 }
 
-.button-white:hover {
-    cursor: pointer;
-    background: transparent;
-    transition: 0.3s;
+.btn-1,
+.btn-2,
+.btn-3 {
+    padding: 12px 25px;
+    background-color: white;
+    margin-top: 20px;
+    display: block;
+    width: 122px;
+    height: 24px;
+    border-radius: 10px;
+    color: black;
+}
+
+.btn-1 {
+    background-color: #DD0000;
     color: aliceblue;
-}
 
-.button-red {
-    background-color: rgba(221, 0, 0, 1);
-    color: white;
-    font-size: 20px;
-    border: 0px;
-    border-radius: 5px;
-    margin: 15px;
-    width: 200px;
-    height: 50px;
-    font-weight: 700px;
-}
-
-.button-red:hover {
-    cursor: pointer;
-    background: transparent;
-    transition: 0.3s;
-    color: rgba(221, 0, 0, 1);
 }
 
 /* ------------ Section ------------*/
