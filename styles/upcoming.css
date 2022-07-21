@@ -112,16 +112,26 @@ section {
     margin: 120px 0px;
 }
 
-.transfer-items {
+.poster {
+    display: flex;
+    justify-content: space-between;
+}
+
+.schedule {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
 .transfer-blog {
-    margin-left: 15px;
+    margin-left: 25px;
     margin-bottom: 15px;
     border: 1px solid gray;
     border-radius: 10px;
+}
+
+.flag img {
+    width: 100%;
+    position: relative;
 }
 
 #tnfr {
@@ -200,38 +210,42 @@ hr {
     color: #FF5D5D;
 }
 
+
 @media screen and (max-width:576px) {
     .container {
         width: 260px;
         text-align: center;
     }
 
+    /* banner responsive */
     .banner {
-        flex-direction: column;
+        display: block;
     }
 
-    section {
-        flex-direction: column;
+    .banner {
+        margin: 34px;
     }
 
-    .all-button {
-        grid-template-rows: repeat(1, 1fr);
+    .banner-content h1 {
+        font-size: 18px;
+        padding-top: 24px;
+
     }
 
-    .transfer-items {
-        grid-template-columns: repeat(1, 1fr);
+    .banner-content p {
+        font-size: 8px;
+        padding-top: 10px;
+        margin-bottom: 20px;
     }
 
-    .footer {
-        flex-direction: column;
+    .banner-content a {
+        padding: 8px 12px;
+        font-size: 12px;
     }
 
-    .contact {
-        grid-template-columns: repeat(1, 1fr);
+    .b-p1 {
+        height: 50vh;
+        width: 100%;
+        margin-top: -20px;
     }
-
-    .social-icon {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
 }
